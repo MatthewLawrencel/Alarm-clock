@@ -49,9 +49,7 @@ function updateTime() {
 
 
 // set the correct format of time
-// converts '1:2:3' to '01:02:03'
 function formatTime(time) {
-   
     return time;
 }
 
@@ -103,24 +101,24 @@ addAlarm.addEventListener('submit', e=> {
     // const newAlarm = addAlarm.alarmTime.value;
     let new_h=formatTime(addAlarm.a_hour.value);
     if(new_h === ''){
-        new_h = '0'
+        new_h = '00'
     }
     if(new_h <10){
-        new_h = `0${new_h}`
+        new_h = `${new_h}`
     }
     let new_m=formatTime(addAlarm.a_min.value);
     if(new_m === ''){
-        new_m = '0'
+        new_m = '00'
     }
     if(new_m <10){
-        new_m = `0${new_m}`
+        new_m = `${new_m}`
     }
     let new_s=formatTime(addAlarm.a_sec.value);
     if(new_s === ''){
-        new_s = '0'
+        new_s = '00'
     }
     if(new_s <10){
-        new_s = `0${new_s}`
+        new_s = `${new_s}`
     }
     let new_AM=formatTime(addAlarm.ampm.value);
     console.log(new_AM);
