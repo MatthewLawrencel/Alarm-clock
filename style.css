@@ -31,7 +31,7 @@ body{
     border-radius: 4px;
     padding-left: 5px;
     padding-right: 5px; 
-    margin-left: 35px;
+    margin-left: 30px;
     background-color: white;
     
 
@@ -54,7 +54,7 @@ body{
 }
 
 .set-alarm-field{
-    margin-top: -20px;
+    margin-top: 20px;
     height: 40px;
     background-color: rgba(138, 235, 135, 0.029);
     padding-top: 0px;
